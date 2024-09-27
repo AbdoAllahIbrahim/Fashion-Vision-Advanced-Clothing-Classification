@@ -1,5 +1,14 @@
 # [Colab Notebook for Advanced Clothing Classification](https://colab.research.google.com/drive/1zx7YBvSMLuN-_NjvJYi6y0Qp-Am8oqB_?usp=sharing) - README
 
+## How to Run
+1. Open the project notebook using this [Colab Notebook Link](https://colab.research.google.com/drive/1zx7YBvSMLuN-_NjvJYi6y0Qp-Am8oqB_?usp=sharing).
+2. Ensure that the required libraries are installed: `numpy`, `pandas`, `matplotlib`, `seaborn`, `tensorflow`, `keras`, `kerastuner`.
+3. Run each code cell sequentially starting from data loading, preprocessing, model training, and evaluation.
+
+> **Note**: This notebook is hosted on Google Colab and not on Kaggle or GitHub due to the integration and dependencies used for this project.
+
+---
+
 ## Project Overview
 
 This project involves the implementation of various Convolutional Neural Network (CNN) architectures, including the traditional LeNet-5 model and modern transfer learning models like VGG-16 and ResNet-50, for classifying images in the Fashion-MNIST dataset. The project aims to compare the performance of a custom-trained CNN against pre-trained models to evaluate which approach is better suited for the given dataset.
@@ -66,11 +75,6 @@ The performance of the models can be summarized as follows:
 ## Requirements
 - **Libraries**: `numpy`, `pandas`, `matplotlib`, `seaborn`, `tensorflow`, `keras`, `kerastuner`
 - **Framework**: Google Colab or a similar Python environment with support for Keras and TensorFlow.
-
-## How to Run
-1. Clone the repository and ensure all required libraries are installed.
-2. Open the `Advanced Clothing Classification.ipynb` file in Google Colab or click the [Colab Notebook Link](https://colab.research.google.com/drive/1zx7YBvSMLuN-_NjvJYi6y0Qp-Am8oqB_?usp=sharing).
-3. Follow the instructions in each code cell to run the project from data loading, preprocessing, model training, and evaluation.
 
 ## Conclusion
 This project demonstrates the importance of choosing the right architecture for a given problem. While transfer learning is powerful, custom-built models like LeNet-5 can outperform them when designed and tuned specifically for the dataset in use.
